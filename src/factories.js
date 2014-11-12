@@ -1,2 +1,4 @@
 //Paths to factories go here
-define([]);
+define([
+  'src/factories/content.js'
+]);

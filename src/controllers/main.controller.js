@@ -1,5 +1,7 @@
 define(['app'], function(app){
-  app.controller('MainCTRL', function($scope){
-    $scope.title = "Hello World";
-  });
+  app.controller('MainCTRL', ['$scope',
+    function($scope){
+      $scope.title = "Hello World";
+    }]
+  );
 });

@@ -1,2 +1,4 @@
 //Paths to directives go here
-define([]);
+define([
+  'src/directives/navbar.js'
+]);

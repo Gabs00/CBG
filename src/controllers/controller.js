@@ -1,5 +1,7 @@
 define(['app'], function(app){
-  app.controller('Test', function($scope){
-    $scope.title = "TEST";
-  });
+  app.controller('Menu', ['$scope', 'SiteContent',
+    function($scope, SiteContent){
+      $scope.items = SiteContent.items;
+    }]
+  );
 });

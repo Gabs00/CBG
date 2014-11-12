@@ -2,6 +2,7 @@ requirejs.config({
   baseUrl:'lib',
   paths:{
     src: '../src',
+    partials:'../partials',
     jquery:'jquery/dist/jquery',
     angular: 'angular/angular',
     app: '../src/app',

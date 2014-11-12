@@ -2,9 +2,13 @@
 <html>
   <head>
     <title>Credit Builders Group</title>
-
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
   </head>
   <body>
+    <div class="container-fluid">
+      <cbg-nav ng-controller="Menu"></cbg-nav>
+      <ui-view></ui-view>
+    </div>
     <script data-main="config" src="lib/requirejs/require.js"></script>
   </body>
 </html>
