@@ -3,11 +3,14 @@
   <head>
     <title>Credit Builders Group</title>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="container-fluid">
-      <cbg-nav ng-controller="Menu"></cbg-nav>
-      <ui-view></ui-view>
+    <div class="container" ng-controller="MainCTRL">
+      <div class="center-block">
+        <cbg-nav ng-controller="Menu"></cbg-nav>
+        <ui-view></ui-view>
+      </div>
     </div>
     <script data-main="config" src="lib/requirejs/require.js"></script>
   </body>

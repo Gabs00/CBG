@@ -1,3 +1,48 @@
-<nav id="navigation">
-  <a ng-repeat="item in items" ui-sref="{{ item.view }}">{{item.text}}</a>
-</nav>
+<div id="navigation">
+  <div class="cbg-header">
+    <img src="{{logoUrl}}" />
+    <h1>{{header}}</h1>
+    <ul>
+      <li ng-repeat="listitem in headerList" >{{listitem}}</li>
+    </ul>
+  </div>
+  <nav>
+    <a ng-repeat="item in items" ui-sref="{{ item.view }}" class="links">{{item.text}}</a>
+  </nav>
+</div>
+
+<div id="pitch">
+  <h2>What Sets us Apart</h2>
+  <ul>
+    <li>Fast Service</li>
+    <li>We do What We Say</li>
+    <li>Professional</li>
+    <li>Quick Replies</li>
+  </ul>
+</div>
+
+<div id="card">
+  <img src="{{imgUrl}}" alt="credit repair"/>
+  <h3>{{title}}</h3>
+  <div>{{description}}</div>
+</div>
+
+<div id="service">
+  <div>
+    {{title}}
+  </div>
+  <ul>
+    <li ng-repeat="package in packages">
+      <span class="cost">{{package.cost}}</span>
+      <span class="description">{{package.description}}</span>
+    </li>
+  </ul>
+</div>
+
+<div id="info">
+  <ul class="company-info">
+    <li>[San Diego, Ca.]</li>
+    <li>|  858 480 6245  |</li>
+    <li>creditbuildersgroup@gmail.com</li>
+  </ul>
+</div>

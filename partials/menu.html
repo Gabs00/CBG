@@ -1,0 +1,16 @@
+<div id="navigation">
+  <div class="cbg-header page-header clearfix">
+    <ul class="nav nav-pills pull-right">
+      <li role="presentation">
+        <a ng-repeat="item in items" ui-sref="{{ item.view }}" role="presentation">
+          {{item.text}}
+        </a>
+      </li>
+    </ul>
+    <img src="{{logoUrl}}" class="pull-left"/>
+    <h1 class="center-block">{{header}}</h1>
+    <ul class="list-group">
+      <li class="list-group-item col-md-3" ng-repeat="listitem in headerList" >{{listitem}}</li>
+    </ul>
+  </div>
+</div>
