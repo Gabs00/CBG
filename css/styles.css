@@ -1,0 +1,15 @@
+.home-body {
+  position:relative;
+}
+
+
+.backimage {
+
+  z-index:0;
+}
+
+.topimage {
+  position:absolute;
+  z-index:9999;
+  top: 80px;
+}
