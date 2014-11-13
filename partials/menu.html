@@ -1,16 +1,21 @@
-<div id="navigation">
-  <div class="cbg-header page-header clearfix">
-    <ul class="nav nav-pills pull-right">
-      <li role="presentation">
-        <a ng-repeat="item in items" ui-sref="{{ item.view }}" role="presentation">
-          {{item.text}}
-        </a>
+<div id="navigation" class="">
+  <div class="cbg-header page-header clearfix text-center panel panel-primary">
+    <!--<img src="{{logoUrl}}" class="pull-left img-responsive"/>-->
+    <h1 class="panel-heading"><strong>{{header}}</strong></h1>
+    <ul class="list-inline panel-body">
+      <li class="" ng-repeat="listitem in headerList" >
+        <h3><span class="caret"></span> {{listitem}} <span class="caret"></span></h3>
+
       </li>
     </ul>
-    <img src="{{logoUrl}}" class="pull-left"/>
-    <h1 class="center-block">{{header}}</h1>
-    <ul class="list-group">
-      <li class="list-group-item col-md-3" ng-repeat="listitem in headerList" >{{listitem}}</li>
-    </ul>
   </div>
+  <nav>
+      <ul class="nav nav-pills nav-justified well">
+        <li role="presentation" ui-sref-active="active" ng-repeat="item in items">
+          <a ui-sref="{{ item.view }}" >
+            <h5>{{item.text}}</h5>
+          </a>
+        </li>
+      </ul>
+  </nav>
 </div>

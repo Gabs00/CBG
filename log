@@ -1,0 +1,218 @@
+Bootstrap (v5)
+Current time is Nov 12, 2014 6:06:58 PM
+System.getProperty('os.name') == 'Linux'
+System.getProperty('os.version') == '3.13.0-24-generic'
+System.getProperty('os.arch') == 'amd64'
+System.getProperty('java.version') == '1.7.0_65'
+System.getProperty('java.vendor') == 'Oracle Corporation'
+System.getProperty('sun.arch.data.model') == '64'
+
+Looking for update
+Downloading: https://s3.amazonaws.com/Minecraft.Download/launcher/launcher.pack.lzma
+Got reply in: 762ms
+No update found.
+Reversing LZMA on /home/gabs/.minecraft/launcher.pack.lzma to /home/gabs/.minecraft/launcher.pack
+Unpacking /home/gabs/.minecraft/launcher.pack to /home/gabs/.minecraft/launcher.jar
+Cleaning up /home/gabs/.minecraft/launcher.pack
+Starting launcher.
+[18:07:10 INFO]: Minecraft Launcher 1.5.3 (through bootstrap 5) started on linux...
+[18:07:10 INFO]: Current time is Nov 12, 2014 6:07:10 PM
+[18:07:10 INFO]: System.getProperty('os.name') == 'Linux'
+[18:07:10 INFO]: System.getProperty('os.version') == '3.13.0-24-generic'
+[18:07:10 INFO]: System.getProperty('os.arch') == 'amd64'
+[18:07:10 INFO]: System.getProperty('java.version') == '1.7.0_65'
+[18:07:10 INFO]: System.getProperty('java.vendor') == 'Oracle Corporation'
+[18:07:10 INFO]: System.getProperty('sun.arch.data.model') == '64'
+[18:07:11 INFO]: Refreshing local version list...
+[18:07:11 INFO]: Refreshing remote version list...
+[18:07:12 INFO]: Refresh complete.
+[18:07:13 INFO]: Loaded 5 profile(s); selected 'LL-FORGE'
+[18:07:13 INFO]: Refreshing auth...
+[18:07:13 INFO]: Logging in with access token
+[18:11:55 INFO]: Getting syncinfo for selected version
+[18:11:55 INFO]: Queueing library & version downloads
+[18:11:55 INFO]: Download job 'Version & Libraries' started (16 threads, 37 files)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/net/minecraft/launchwrapper/1.11/launchwrapper-1.11.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-linux.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/tv/twitch/twitch/5.16/twitch-5.16.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Download job 'Resources' skipped as there are no files to download
+[18:11:55 INFO]: Job 'Resources' finished successfully (took 0:00:00.000)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/google/guava/guava/16.0/guava-16.0.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/mojang/authlib/1.5.16/authlib-1.5.16.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/mojang/authlib/1.5.16/authlib-1.5.16.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/mojang/realms/1.3.5/realms-1.3.5.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/net/minecraft/launchwrapper/1.11/launchwrapper-1.11.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/net/minecraft/launchwrapper/1.11/launchwrapper-1.11.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/google/guava/guava/16.0/guava-16.0.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/java3d/vecmath/1.3.1/vecmath-1.3.1.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/commons-codec/commons-codec/1.9/commons-codec-1.9.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/java3d/vecmath/1.3.1/vecmath-1.3.1.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/commons-codec/commons-codec/1.9/commons-codec-1.9.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/versions/1.7.10/1.7.10.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/mojang/realms/1.3.5/realms-1.3.5.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/net/minecraft/launchwrapper/1.11/launchwrapper-1.11.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/tv/twitch/twitch/5.16/twitch-5.16.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-linux.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Attempting to download /home/gabs/.minecraft/libraries/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar for job 'Version & Libraries'... (try 0)
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/google/guava/guava/16.0/guava-16.0.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:55 INFO]: Finished downloading /home/gabs/.minecraft/libraries/com/google/guava/guava/16.0/guava-16.0.jar for job 'Version & Libraries': Local file matches local checksum, using that
+[18:11:56 INFO]: Finished downloading /home/gabs/.minecraft/versions/1.7.10/1.7.10.jar for job 'Version & Libraries': Used own copy as it matched etag
+[18:11:56 INFO]: Job 'Version & Libraries' finished successfully (took 0:00:00.487)
+[18:11:56 INFO]: Launching game
+[18:11:56 INFO]: Unpacking natives to /home/gabs/.minecraft/versions/1.7.10-LiteLoader1.7.10-1.7.10-Forge10.13.2.1235/1.7.10-LiteLoader1.7.10-1.7.10-Forge10.13.2.1235-natives-151275017602711
+[18:11:56 INFO]: Launching in /home/gabs/.minecraft
+[18:11:56 INFO]: Half command: /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java -Xmx1G -Djava.library.path=/home/gabs/.minecraft/versions/1.7.10-LiteLoader1.7.10-1.7.10-Forge10.13.2.1235/1.7.10-LiteLoader1.7.10-1.7.10-Forge10.13.2.1235-natives-151275017602711 -cp /home/gabs/.minecraft/libraries/com/mumfrey/liteloader/1.7.10/liteloader-1.7.10.jar:/home/gabs/.minecraft/libraries/net/minecraft/launchwrapper/1.11/launchwrapper-1.11.jar:/home/gabs/.minecraft/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar:/home/gabs/.minecraft/libraries/com/google/guava/guava/16.0/guava-16.0.jar:/home/gabs/.minecraft/libraries/net/minecraftforge/forge/1.7.10-10.13.2.1235/forge-1.7.10-10.13.2.1235.jar:/home/gabs/.minecraft/libraries/net/minecraft/launchwrapper/1.11/launchwrapper-1.11.jar:/home/gabs/.minecraft/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar:/home/gabs/.minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar:/home/gabs/.minecraft/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar:/home/gabs/.minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar:/home/gabs/.minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar:/home/gabs/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar:/home/gabs/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar:/home/gabs/.minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar:/home/gabs/.minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar:/home/gabs/.minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar:/home/gabs/.minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar:/home/gabs/.minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar:/home/gabs/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar:/home/gabs/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar:/home/gabs/.minecraft/libraries/com/mojang/realms/1.3.5/realms-1.3.5.jar:/home/gabs/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/home/gabs/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:/home/gabs/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/gabs/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/home/gabs/.minecraft/libraries/java3d/vecmath/1.3.1/vecmath-1.3.1.jar:/home/gabs/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar:/home/gabs/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar:/home/gabs/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar:/home/gabs/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar:/home/gabs/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar:/home/gabs/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar:/home/gabs/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar:/home/gabs/.minecraft/libraries/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final.jar:/home/gabs/.minecraft/libraries/com/google/guava/guava/16.0/guava-16.0.jar:/home/gabs/.minecraft/libraries/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar:/home/gabs/.minecraft/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/gabs/.minecraft/libraries/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/gabs/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar:/home/gabs/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar:/home/gabs/.minecraft/libraries/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/home/gabs/.minecraft/libraries/com/mojang/authlib/1.5.16/authlib-1.5.16.jar:/home/gabs/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar:/home/gabs/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar:/home/gabs/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar:/home/gabs/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar:/home/gabs/.minecraft/libraries/tv/twitch/twitch/5.16/twitch-5.16.jar:/home/gabs/.minecraft/versions/1.7.10/1.7.10.jar net.minecraft.launchwrapper.Launch
+[18:11:56 INFO]: Looking for orphaned versions to clean up...
+[18:11:56 INFO]: Looking for old natives & assets to clean up...
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 ERROR]: java.io.IOException: Stream closed
+[19:27:31 INFO]: Game ended with no troubles detected (exit code 0)
+[19:27:31 INFO]: Following visibility rule and exiting launcher as the game has ended
+[19:27:31 INFO]: Deleting /home/gabs/.minecraft/versions/1.7.10-LiteLoader1.7.10-1.7.10-Forge10.13.2.1235/1.7.10-LiteLoader1.7.10-1.7.10-Forge10.13.2.1235-natives-151275017602711
