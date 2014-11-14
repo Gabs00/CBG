@@ -1,8 +1,8 @@
-<div id="navigation" class="">
-  <div class="cbg-header page-header clearfix text-center panel panel-primary">
+<div id="navigation">
+  <div class="cbg-header">
     <!--<img src="{{logoUrl}}" class="pull-left img-responsive"/>-->
     <h1 class="panel-heading"><strong>{{header}}</strong></h1>
-    <ul class="list-inline panel-body">
+    <ul class="header-list">
       <li class="" ng-repeat="listitem in headerList" >
         <h3><span class="caret"></span> {{listitem}} <span class="caret"></span></h3>
 
@@ -10,7 +10,7 @@
     </ul>
   </div>
   <nav>
-      <ul class="nav nav-pills nav-justified well">
+      <ul class="cbgnav nav">
         <li role="presentation" ui-sref-active="active" ng-repeat="item in items">
           <a ui-sref="{{ item.view }}" >
             <h5>{{item.text}}</h5>

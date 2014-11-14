@@ -12,10 +12,11 @@ requirejs.config({
   },
   shim:{
     'angular': {
+      deps:['jquery'],
       exports: 'angular'
     }
   },
-  deps:['angular','jquery']
+  deps:['jquery','angular']
 });
 
 require(['src/main']);
